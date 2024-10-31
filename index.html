@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      
+    <div id="birthday-card" style="display: none;">
+        <div class="card" id="hover-card">
+            <div class="front">
+                <h2>Happy Birthday, <span id="name-placeholder"></span>!</h2>
+    <img src="HappyBirthDay.gif" alt="Birthday Cake">
+            </div>
+            <div class="back">
+                <h2 id="birthday-message">Selamat ulang tahun, cinta! Semoga setiap harimu dipenuhi kebahagiaan seperti kamu membahagiakan aku.</h2>
+                <img src="bday-animals.gif" alt="Cute Bday Animal">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
